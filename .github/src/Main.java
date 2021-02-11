@@ -25,14 +25,15 @@ public class Main {
         int prodResultFirst=prodFirst*prodSecond;
         double prodResultSecond=prodThird*prodFourth;
 
-        System.out.printf(prodFirst+"*"+prodSecond+"="+prodResultFirst+"\n"+prodThird+"*"+prodFourth+"="+prodResultSecond+"\n");
+        System.out.printf("%d * %d = %d \n",prodFirst,prodSecond,prodResultFirst);
+        System.out.printf("%.2f * %.2f = %.2f \n",prodThird,prodFourth,prodResultSecond);
 
         double quotFirst=55.25;
         double quotSecond=35.55;
 
         double quotResult=quotFirst/quotSecond;
 
-        System.out.printf(quotFirst+"/"+quotSecond+"="+"%.2f",quotResult);
+        System.out.printf("%.2f / %.2f = %.2f \n",quotFirst,quotSecond,quotResult);
 
     }
 }
